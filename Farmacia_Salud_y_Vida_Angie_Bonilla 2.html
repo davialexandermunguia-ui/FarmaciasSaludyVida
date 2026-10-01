@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farmacia Salud y Vida</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:Arial,sans-serif;background:#f4fbfa;color:#183b3a;line-height:1.6}
+header{background:linear-gradient(135deg,#0b8f87,#20b7a8);color:white;padding:28px 18px;text-align:center}.logo{font-size:52px}
+header h1{font-size:30px;margin:5px 0}header p{font-size:16px}
+nav{background:white;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;padding:12px;box-shadow:0 2px 8px #0001;position:sticky;top:0;z-index:5}
+nav a{color:#087d76;text-decoration:none;font-weight:bold;padding:7px 9px}
+section{padding:35px 18px;max-width:1050px;margin:auto}.hero{background:white;margin:25px auto;border-radius:20px;padding:35px 22px;text-align:center;box-shadow:0 5px 18px #0001}
+.hero h2,h2{color:#087d76}.hero h2{font-size:27px;margin-bottom:10px}h2{text-align:center;margin-bottom:18px}
+.button{display:inline-block;background:#087d76;color:white;padding:11px 18px;border-radius:25px;text-decoration:none;margin-top:15px;font-weight:bold}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}.card{background:white;border-radius:16px;padding:20px;box-shadow:0 4px 15px #0001;text-align:center}
+.card .icon{font-size:38px}.card h3{margin:8px 0;color:#17635f}.price{font-weight:bold;color:#e26b35;font-size:18px;margin-top:8px}
+.info{background:#e9f8f6;border-radius:18px;padding:22px;margin-top:15px}.contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.invoice{background:white;border:2px dashed #087d76;border-radius:15px;padding:20px;max-width:700px;margin:auto;box-shadow:0 4px 15px #0001}.invoice h3{text-align:center;color:#087d76}
+.invoice table{width:100%;border-collapse:collapse;margin-top:15px}.invoice th,.invoice td{border-bottom:1px solid #ddd;padding:8px;text-align:left}.invoice .total{text-align:right;font-weight:bold;font-size:18px}
+.badge{display:inline-block;background:#fff0e8;color:#a64b21;padding:5px 10px;border-radius:12px;font-size:12px;font-weight:bold}
+footer{background:#164f4b;color:white;text-align:center;padding:25px 15px;margin-top:20px}.small{font-size:13px;color:#5b7775}
+</style>
+</head>
+<body>
+<header><div class="logo">💊</div><h1>Farmacia Salud y Vida</h1><p>Tu bienestar es nuestra prioridad</p><p style="margin-top:8px">Proyecto de emprendimiento — Angie Brigieth Bonilla Delcid</p></header>
+
+<nav><a href="#inicio">Inicio</a><a href="#productos">Productos</a><a href="#servicios">Servicios</a><a href="#equipo">Equipo</a><a href="#nosotros">Nosotros</a><a href="#factura">Factura</a><a href="#contacto">Contacto</a></nav>
+
+<section id="inicio"><div class="hero"><h2>Bienvenidos a Farmacia Salud y Vida</h2><p>Emprendimiento dedicado a ofrecer productos farmacéuticos y artículos de cuidado personal, con atención amable, responsable y cercana a nuestra comunidad.</p><a class="button" href="#productos">Ver productos</a></div></section>
+
+<section id="productos"><h2>💊 Nuestros productos</h2><div class="cards">
+<div class="card"><div class="icon">💊</div><h3>Paracetamol</h3><p>Presentación de 500 mg</p><div class="price">L. 35.00</div></div>
+<div class="card"><div class="icon">🌡️</div><h3>Termómetro</h3><p>Termómetro digital</p><div class="price">L. 120.00</div></div>
+<div class="card"><div class="icon">🩹</div><h3>Curitas</h3><p>Paquete para primeros auxilios</p><div class="price">L. 45.00</div></div>
+<div class="card"><div class="icon">🧴</div><h3>Alcohol</h3><p>Alcohol antiséptico</p><div class="price">L. 55.00</div></div>
+<div class="card"><div class="icon">🧼</div><h3>Jabón antibacterial</h3><p>Cuidado e higiene personal</p><div class="price">L. 40.00</div></div>
+<div class="card"><div class="icon">🧻</div><h3>Mascarillas</h3><p>Paquete de mascarillas</p><div class="price">L. 60.00</div></div>
+</div><p class="small" style="text-align:center;margin-top:18px">*Precios de ejemplo para fines académicos.</p></section>
+
+<section id="servicios"><h2>🩺 Nuestros servicios</h2><div class="cards">
+<div class="card"><div class="icon">👩‍⚕️</div><h3>Atención farmacéutica</h3><p>Orientación general sobre el uso responsable de medicamentos.</p></div>
+<div class="card"><div class="icon">❤️</div><h3>Toma de presión</h3><p>Servicio de toma de presión arterial.</p></div>
+<div class="card"><div class="icon">🧰</div><h3>Primeros auxilios</h3><p>Productos básicos para el cuidado y atención inicial.</p></div>
+</div></section>
+
+<section id="equipo"><h2>👩‍⚕️ Nuestro equipo</h2><div class="cards">
+<div class="card"><div class="icon">👩‍💼</div><h3>María Fernanda López</h3><p><strong>Encargada de farmacia</strong></p><p>Atiende a los clientes y coordina las actividades del establecimiento.</p><p>📱 9999-1201</p></div>
+<div class="card"><div class="icon">👨‍⚕️</div><h3>Carlos Daniel Martínez</h3><p><strong>Auxiliar de farmacia</strong></p><p>Apoya en la organización de productos y atención al cliente.</p><p>📱 9999-1202</p></div>
+<div class="card"><div class="icon">👩‍⚕️</div><h3>Sofía Alejandra Hernández</h3><p><strong>Atención al cliente</strong></p><p>Recibe consultas y ayuda a los clientes con sus compras.</p><p>📱 9999-1203</p></div>
+</div><p class="small" style="text-align:center;margin-top:15px">*Nombres y teléfonos ficticios creados exclusivamente para este proyecto académico.</p></section>
+
+<section id="nosotros"><h2>🏥 Quiénes somos</h2><div class="info">
+<p><strong>Farmacia Salud y Vida</strong> es un emprendimiento académico creado por <strong>Angie Brigieth Bonilla Delcid</strong>, con el propósito de facilitar el acceso a productos de salud y cuidado personal.</p><br>
+<p><strong>Misión:</strong> Ofrecer productos y servicios de farmacia con atención responsable y cercana a la comunidad.</p>
+<p><strong>Visión:</strong> Ser una farmacia reconocida por su confianza, buena atención y compromiso con el bienestar de sus clientes.</p>
+<p><strong>Valores:</strong> Responsabilidad, respeto, honestidad, servicio y compromiso.</p><br>
+<p><strong>Dirección del proyecto:</strong> 6a Avenida SE, Barrio El Centro, El Progreso, Yoro, Honduras.</p>
+<p class="small">La dirección se utiliza como ubicación de referencia ficticia para el proyecto académico; no representa un establecimiento real.</p>
+</div></section>
+
+<section id="factura"><h2>🧾 Factura de ejemplo</h2><div class="invoice">
+<h3>FARMACIA SALUD Y VIDA</h3><p style="text-align:center">El Progreso, Yoro, Honduras</p><p style="text-align:center"><span class="badge">FACTURA DE EJEMPLO — SIN VALIDEZ FISCAL</span></p>
+<p style="margin-top:15px"><strong>Cliente:</strong> María Pérez</p><p><strong>Fecha:</strong> 30/09/2026</p>
+<table><tr><th>Producto</th><th>Cant.</th><th>Precio</th><th>Total</th></tr>
+<tr><td>Paracetamol 500 mg</td><td>2</td><td>L. 35.00</td><td>L. 70.00</td></tr>
+<tr><td>Curitas</td><td>1</td><td>L. 45.00</td><td>L. 45.00</td></tr>
+<tr><td>Alcohol</td><td>1</td><td>L. 55.00</td><td>L. 55.00</td></tr>
+</table><p class="total">TOTAL: L. 170.00</p>
+<p class="small" style="margin-top:10px">Documento creado únicamente como ejemplo para la presentación escolar.</p>
+</div></section>
+
+<section id="contacto"><h2>📞 Contáctanos</h2><div class="contact">
+<div class="card"><div class="icon">📍</div><h3>Ubicación</h3><p>6a Avenida SE, Barrio El Centro<br>El Progreso, Yoro, Honduras</p></div>
+<div class="card"><div class="icon">📱</div><h3>Teléfono</h3><p>9999-1200</p></div>
+<div class="card"><div class="icon">✉️</div><h3>Correo</h3><p>saludyvida@ejemplo.com</p></div>
+</div></section>
+
+<footer><p>💊 Farmacia Salud y Vida</p><p>“Cuidamos de ti y de tu familia”</p><p>Proyecto realizado por: <strong>Angie Brigieth Bonilla Delcid</strong></p><p class="small" style="color:#d7eeee;margin-top:8px">Proyecto académico de emprendimiento.</p></footer>
+</body></html>
